@@ -82,23 +82,20 @@
               </div>
             </div>
           </div>
-  
-          
         </div>
       </div>
-      <div class=" flex container mx-auto px-10 gap-10 py-3">
-          <img
-            src="https://toshkent-parfum.uz/images/logo.svg"
-            alt="Logo"
-            class="pink-logo"
-          />
-
-          <Button/>
-
-          <Input/>
-
+      <div class="flex container mx-auto px-10 gap-10 py-3">
+        <img
+          src="https://toshkent-parfum.uz/images/logo.svg"
+          alt="Logo"
+          class="pink-logo"
+        />
+        <div class="flex gap-5">
+          <Button />
         </div>
-
+        <Input />
+        
+      </div>
     </header>
   </div>
 </template>
@@ -110,10 +107,10 @@ const showText3 = ref(false);
 const showText4 = ref(false);
 const showText5 = ref(false);
 
-import Text from "../Common/Text.vue";
-import LanguageSelector from "../Common/LanguageSelector.vue";
-import Button from '../Common/Button.vue'
-import Input from '../Common/Input.vue'
+import Text from "../Common/Header/Text.vue";
+import LanguageSelector from "../Common/Header/LanguageSelector.vue";
+import Button from "../Common/Header/Button.vue";
+import Input from "../Common/Header/Input.vue";
 </script>
   
   <style scoped>
